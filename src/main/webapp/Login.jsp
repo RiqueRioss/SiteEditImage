@@ -24,5 +24,6 @@
 	</table>
 	</form>
 	<p>Novo aqui? <a href="Registrar.jsp">Registre-se</a></p>
+	<p>Prefiro não me autenticar, <a href="Menu.jsp">Prosseguir</a></p>
 </body>
 </html>
