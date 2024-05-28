@@ -1,9 +1,9 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Página de Login</title>
+<link rel="stylesheet" type="text/css" href="css/styleLogin.css">
 </head>
 <body>
 	<h1>Login</h1>
