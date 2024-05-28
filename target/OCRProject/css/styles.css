@@ -1,0 +1,43 @@
+body {
+    background-color: #007cff; 
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+button, input[type="submit"] {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+   border: none;
+   border-radius: 5px;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: darkgray;
+}
+
+h1, h2, h3 {
+   display: inline; 
+   padding: 5px; 
+   background-color: black;
+   border: none;
+   border-radius: 5px;
+}
+
+a {
+    color: white;
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    padding: 10px;
+}
+
+form {
+    margin-bottom: 20px;
+}

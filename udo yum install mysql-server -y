@@ -1,0 +1,55 @@
+  UNIT                                                  LOAD   ACTIVE SUB     DESCRIPTION
+  acpid.service                                         loaded active running ACPI Event Daemon
+  amazon-ssm-agent.service                              loaded active running amazon-ssm-agent
+  atd.service                                           loaded active running Deferred execution scheduler
+  auditd.service                                        loaded active running Security Auditing Service
+  chronyd.service                                       loaded active running NTP client/server
+  cloud-config.service                                  loaded active exited  Apply the settings specified in cloud-config
+  cloud-final.service                                   loaded active exited  Execute cloud user/final scripts
+  cloud-init-local.service                              loaded active exited  Initial cloud-init job (pre-networking)
+  cloud-init.service                                    loaded active exited  Initial cloud-init job (metadata service crawler)
+  dbus-broker.service                                   loaded active running D-Bus System Message Bus
+  dracut-shutdown.service                               loaded active exited  Restore /run/initramfs on shutdown
+  getty@tty1.service                                    loaded active running Getty on tty1
+  gssproxy.service                                      loaded active running GSSAPI Proxy Daemon
+  kmod-static-nodes.service                             loaded active exited  Create List of Static Device Nodes
+  libstoragemgmt.service                                loaded active running libstoragemgmt plug-in server daemon
+  policy-routes@enX0.service                            loaded active exited  Set up policy routes for enX0
+  rngd.service                                          loaded active running Hardware RNG Entropy Gatherer Daemon
+  rpc-statd-notify.service                              loaded active exited  Notify NFS peers of a restart
+  serial-getty@ttyS0.service                            loaded active running Serial Getty on ttyS0
+  sshd.service                                          loaded active running OpenSSH server daemon
+  sysstat.service                                       loaded active exited  Resets System Activity Logs
+  systemd-boot-update.service                           loaded active exited  Automatic Boot Loader Update
+  systemd-fsck-root.service                             loaded active exited  File System Check on Root Device
+  systemd-fsck@dev-disk-by\x2duuid-5F21\x2dCDC5.service loaded active exited  File System Check on /dev/disk/by-uuid/5F21-CDC5
+  systemd-homed-activate.service                        loaded active exited  Home Area Activation
+  systemd-homed.service                                 loaded active running Home Area Manager
+  systemd-journal-catalog-update.service                loaded active exited  Rebuild Journal Catalog
+  systemd-journal-flush.service                         loaded active exited  Flush Journal to Persistent Storage
+  systemd-journald.service                              loaded active running Journal Service
+  systemd-logind.service                                loaded active running User Login Management
+  systemd-machine-id-commit.service                     loaded active exited  Commit a transient machine-id on disk
+  systemd-network-generator.service                     loaded active exited  Generate network units from Kernel command line
+  systemd-networkd-wait-online.service                  loaded active exited  Wait for Network to be Configured
+  systemd-networkd.service                              loaded active running Network Configuration
+  systemd-random-seed.service                           loaded active exited  Load/Save Random Seed
+  systemd-remount-fs.service                            loaded active exited  Remount Root and Kernel File Systems
+  systemd-resolved.service                              loaded active running Network Name Resolution
+  systemd-sysctl.service                                loaded active exited  Apply Kernel Variables
+  systemd-tmpfiles-setup-dev.service                    loaded active exited  Create Static Device Nodes in /dev
+  systemd-tmpfiles-setup.service                        loaded active exited  Create Volatile Files and Directories
+  systemd-udev-trigger.service                          loaded active exited  Coldplug All udev Devices
+  systemd-udevd.service                                 loaded active running Rule-based Manager for Device Events and Files
+  systemd-update-done.service                           loaded active exited  Update is Completed
+  systemd-update-utmp.service                           loaded active exited  Record System Boot/Shutdown in UTMP
+  systemd-user-sessions.service                         loaded active exited  Permit User Sessions
+  systemd-userdbd.service                               loaded active running User Database Manager
+  user-runtime-dir@1000.service                         loaded active exited  User Runtime Directory /run/user/1000
+  user@1000.service                                     loaded active running User Manager for UID 1000
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+48 loaded units listed. Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.

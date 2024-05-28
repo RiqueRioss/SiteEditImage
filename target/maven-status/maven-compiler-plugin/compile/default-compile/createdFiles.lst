@@ -1,0 +1,8 @@
+servlets/OCRServlet.class
+servlets/TamanhoServlet.class
+servlets/MarcaServlet.class
+funcoes/Edicao.class
+servlets/RegistrarServlet.class
+servlets/LoginServlet.class
+servlets/MenuServlet.class
+servlets/FiltroServlet.class
