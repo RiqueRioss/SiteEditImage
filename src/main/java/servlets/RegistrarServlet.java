@@ -26,9 +26,12 @@ public class RegistrarServlet extends HttpServlet {
 
             // Driver do mysql connector
             Class.forName("com.mysql.cj.jdbc.Driver");
-            // Conectando com o banco de dados (local, nome, senha)
-            Connection conexao = DriverManager.getConnection("jdbc:mysql://localhost:3306/teste", "root", 
-                    "Amongus_Sus_Impostor_Sussy_Amogus_Baka_1");
+            
+            String jdbcURL = "jdbc:mysql://http://18.190.155.155:3306/teste";
+            String jdbcUsername = "root"; // Usuário do banco de dados
+            String jdbcPassword = "FusionFall1!";
+            
+            Connection conexao = DriverManager.getConnection(jdbcURL, jdbcUsername, jdbcPassword);
 
             // Obtendo parâmetros inseridos na página de registro
             String nome = request.getParameter("txtNome");
